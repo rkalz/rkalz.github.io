@@ -1,0 +1,17 @@
+body {
+	background-color: gray;
+}
+
+#main-text {
+	color: lightblue;
+	text-align: center;
+	font-family: verdana;
+	letter-spacing: 30;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
