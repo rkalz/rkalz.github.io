@@ -15,3 +15,13 @@ body {
 	left: 50%;
 	transform: translate(-50%,-50%);
 }
+
+@media screen
+	and (orientation: portrait) {
+		
+	#main-text {
+		font-size: 500%;
+		width: 100%;
+	}
+		
+}
