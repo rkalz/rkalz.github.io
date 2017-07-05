@@ -5,24 +5,39 @@ body {
 	background-color: gray;
 	text-align: center;
 	letter-spacing: 30;
-
-}
-
-#container {
+	padding: 10px;
 	min-height: 100%;
 	height: 100%;
 	position: relative;
+
 }
 
-#main-text {
-	padding: 10px;
-}
+h1 { 
+	animation-name: fadeIn;
+	animation-duration: 0.5s;
+	opacity: 0;
+	animation-fill-mode: forwards;
+	}
+h2 { 
+	animation-name: fadeIn;
+	animation-delay: 0.5s;
+	animation-duration: 0.5s; 
+	opacity: 0;
+	animation-fill-mode: forwards;
+	}
+h3 { 
+	animation-name: fadeIn;
+	animation-delay: 1s;
+	animation-duration: 0.5s; 
+	opacity: 0;
+	animation-fill-mode: forwards;
+	}
 
-.centered {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%,-50%);
+@keyframes fadeIn {
+	
+	0% { opacity: 0;  }
+	100% { opacity: 1;	}
+	
 }
 
 @media screen
